@@ -4,46 +4,174 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous">
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="images/—Pngtree—heart icon_20305542.png">Cinematic</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="Home.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="services.html">services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active bg-danger" href="Contact Us.html">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="products.html">products</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            galery
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">images</a></li>
-            <li><a class="dropdown-item" href="#">video</a></li>
-            
-          </ul>
-        </li>
-        
-      </ul>
-    </div>
-  </div>
-</nav>
+        <div class="container-fluid">
+          <a class="navbar-brand"
+            href="images/—Pngtree—heart icon_20305542.png">Cinematic</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page"
+                  href="Home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active bg-danger"
+                  href="Contact Us.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  galery
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">images</a></li>
+                  <li><a class="dropdown-item" href="#">video</a></li>
+
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <main>
+      <section class="mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 border border-dark p-4">
+              <h1>contact us</h1>
+              <form>
+                <div class="row">
+                  <div class="col-md-6"><label for="labelforname"
+                      class="form-label">Enter name </label>
+                    <input type="text" class="form-control mb-3"
+                      id="labelforname"></div>
+                  <div class="col-md-6"><label for="inputEmail4"
+                      class="form-label">phone number</label>
+                    <input type="number" class="form-control mb-3"
+                      id="inputEmail4"></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control mb-3"
+                      id="inputEmail4">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4"
+                      class="form-label">Password</label>
+                    <input type="password" class="form-control mb-3"
+                      id="inputPassword4">
+                  </div>
+                  <div class="col-md-4">select country<label
+                      class="visually-hidden"
+                      for="autoSizingSelect">select country</label>
+                    <select class="form-select mt-1 mb-3" id="autoSizingSelect">
+                      <option selected>Choose country</option>
+                      <option value="1">UK</option>
+                      <option value="2">USA</option>
+                      <option value="3">INDIA</option>
+                    </select></div>
+                  <div class="col-md-4">select state<label
+                      class="visually-hidden"
+                      for="autoSizingSelect">Preference</label>
+                    <select class="form-select mt-1 mb-3" id="autoSizingSelect">
+                      <option selected>Choose state</option>
+                      <option value="1">MP</option>
+                      <option value="2">GOVA</option>
+                      <option value="3">MH</option>
+                    </select></div>
+                  <div class="col-md-4">select city<label
+                      class="visually-hidden"
+                      for="autoSizingSelect">Preference</label>
+                    <select class="form-select mt-1 mb-3" id="autoSizingSelect">
+                      <option selected>Choose city</option>
+                      <option value="1">PAROLA</option>
+                      <option value="2">JALGAON</option>
+                      <option value="3">PUNE</option>
+                    </select></div>
+                  <label for="checkbox"
+                    class="form-label">select gender</label>
+                  <div class="col-md-4"><div class="form-check">
+                      <input class="form-check-input" type="radio"
+                        name="gridRadios" id="gridRadios1" value="option1"
+                        checked>
+                      <label class="form-check-label" for="gridRadios1">
+                        male
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio"
+                        name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label" for="gridRadios2">
+                        female
+                      </label>
+                    </div><div class="form-check">
+                      <input class="form-check-input" type="radio"
+                        name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label mb-3" for="gridRadios2">
+                        others
+                      </label>
+                    </div></div>
+                  <div class="col-md-4"><label for="inputPassword4"
+                      class="form-label">Enter DOB</label>
+                    <input type="date" class="form-control mb-3"
+                      id="inputPassword4"></div>
+                  <div class="col-md-12">
+                    <label for="labelforname"
+                      class="form-label">Enter gmail</label>
+                    <input type="text" class="form-control"
+                      placeholder="Recipient’s username"
+                      aria-label="Recipient’s username"
+                      aria-describedby="basic-addon2">
+                    <span class="input-group-text"
+                      id="basic-addon2">@example.com</span>
+                  </div>
+                  <div class="col-md-12"><label
+                      for="exampleFormControlTextarea1"
+                      class="form-label mt-3">Enter address</label>
+                    <textarea class="form-control mb-3"
+                      id="exampleFormControlTextarea1"
+                      rows="3"></textarea></div>
+                </div>
+                <button type="submit" class="btn btn-primary">submit</button>
+              </form>
+            </div>
+            <div class="col-md-6 p-5"><h2>Reach Us</h2>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3738.5937612716816!2d75.23172943143523!3d20.85297576044277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1770461206827!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
   </body>
 </html>
